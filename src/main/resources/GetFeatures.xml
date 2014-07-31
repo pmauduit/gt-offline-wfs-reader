@@ -1,0 +1,7 @@
+<ows:ExceptionReport xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/ows/1.1 http://sdi.georchestra.org/geoserver/schemas/ows/1.1.0/owsAll.xsd">
+  <ows:Exception exceptionCode="NoApplicableCode">
+    <ows:ExceptionText>java.lang.RuntimeException: Encode failed for AbstractFeature. Cause: INVALID_CHARACTER_ERR: An invalid or illegal XML character is specified. 
+Encode failed for AbstractFeature. Cause: INVALID_CHARACTER_ERR: An invalid or illegal XML character is specified. 
+INVALID_CHARACTER_ERR: An invalid or illegal XML character is specified. </ows:ExceptionText>
+  </ows:Exception>
+</ows:ExceptionReport>

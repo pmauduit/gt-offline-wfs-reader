@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:gml="http://www.opengis.net/gml" xmlns:savoie="http://sdi.georchestra.org/geoserver/savoie" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://sdi.georchestra.org/geoserver/savoie">
+  <xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://sdi.georchestra.org/geoserver/schemas/gml/2.1.2/feature.xsd"/>
+  <xsd:complexType name="73-SavoieType">
+    <xsd:complexContent>
+      <xsd:extension base="gml:AbstractFeatureType">
+        <xsd:sequence>
+          <xsd:element maxOccurs="1" minOccurs="0" name="the_geom" nillable="true" type="gml:MultiPolygonPropertyType"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="COMMUNE" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="REF_INSEE" nillable="true" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="73-Savoie" substitutionGroup="gml:_Feature" type="savoie:73-SavoieType"/>
+</xsd:schema>
